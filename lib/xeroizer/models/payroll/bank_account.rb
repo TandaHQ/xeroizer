@@ -18,8 +18,11 @@ module Xeroizer
 
         # uk
         string      :sort_code
-      end
 
+        def to_api_json
+          JSON.parse(super)
+        end
+      end
     end
   end
 end

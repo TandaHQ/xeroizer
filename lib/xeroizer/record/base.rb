@@ -201,6 +201,8 @@ module Xeroizer
               v.to_api_json
             elsif k == :periods # hack for leave request periods for xero uk
               v.map(&:to_api_json)
+            elsif k == :bank_accounts # hack for bank accounts for xero uk
+              v.map(&:to_api_json)
             elsif k == :address # hack for required address field for xero uk
               v.attributes
             elsif v.is_a?(Array) && [0, 1].include?(v.count)
