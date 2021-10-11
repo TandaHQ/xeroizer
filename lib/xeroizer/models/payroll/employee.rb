@@ -39,6 +39,7 @@ module Xeroizer
         guid          :payroll_calendar_id
         string        :employee_group_name
         date          :termination_date
+        string        :termination_reason, api_name: 'TerminationReason'
         string        :national_insurance_number # UK
         guid          :pay_run_calendar_id # UK
         datetime_utc  :updated_date_utc, api_name: 'UpdatedDateUTC'
