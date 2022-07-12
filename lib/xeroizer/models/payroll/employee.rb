@@ -48,7 +48,7 @@ module Xeroizer
         string        :employment_type, api_name: 'EmploymentType'
         string        :tax_scale_type, api_name: 'TaxScaleType'
         string        :work_condition, api_name: 'WorkCondition'
-        string        :marital_status, api_name: 'MaritalStatus'
+        string        :senior_marital_status, api_name: 'SeniorMaritalStatus'
 
         belongs_to    :address, :internal_name_singular => "address", :model_name => "Address", api_name: 'address'
         belongs_to    :home_address, :internal_name_singular => "home_address", :model_name => "HomeAddress"
