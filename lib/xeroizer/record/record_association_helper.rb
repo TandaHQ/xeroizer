@@ -191,6 +191,11 @@ module Xeroizer
           end
         end
 
+        def scope_attribute(attr_name, block)
+          attributes = self.attributes[attr_name]
+          self.attributes[attr_name] = attributes.instance_eval(&block)
+        end
+
 
         def value_if_nil(association_type, boxed_value = nil)
           case association_type

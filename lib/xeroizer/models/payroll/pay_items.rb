@@ -22,6 +22,7 @@ module Xeroizer
 
         has_many      :earnings_types # US
 
+        scope_attribute :earnings_rates, proc { select { |er| er['current_record'] } }
       end
 
     end
