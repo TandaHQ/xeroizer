@@ -21,6 +21,9 @@ module Xeroizer
         decimal      :upward_variation_tax_withholding_amount
         boolean      :eligible_to_receive_leave_loading
         decimal      :approved_withholding_variation_percentage
+        string       :senior_marital_status, api_name: 'SeniorMaritalStatus'
+        string       :tax_scale_type, api_name: 'TaxScaleType'
+        string       :work_condition, api_name: 'WorkCondition'
 
       end
 

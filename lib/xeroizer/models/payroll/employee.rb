@@ -46,10 +46,7 @@ module Xeroizer
         date          :end_date, api_name: 'EndDate' # UK - null when employee is active
         string        :income_type, api_name: 'IncomeType'
         string        :employment_type, api_name: 'EmploymentType'
-        string        :tax_scale_type, api_name: 'TaxScaleType'
-        string        :work_condition, api_name: 'WorkCondition'
-        string        :senior_marital_status, api_name: 'SeniorMaritalStatus'
-        string        :is_stp2_qualified, api_name: "IsSTP2Qualified"
+        string        :is_stp2_qualified, api_name: 'IsSTP2Qualified'
 
         belongs_to    :address, :internal_name_singular => "address", :model_name => "Address", api_name: 'address'
         belongs_to    :home_address, :internal_name_singular => "home_address", :model_name => "HomeAddress"
