@@ -19,7 +19,7 @@ module Xeroizer
         has_many      :timesheet_categories, :model_name => 'TimesheetCategories'
         has_many      :employee_groups, :model_name => 'EmployeeGroups'
         integer       :days_in_payroll_year
-        boolean       :employees_are_stp_2, :api_name => 'EmployeesAreSTP2'
+        boolean       :employees_are_stp2, :api_name => 'EmployeesAreSTP2'
 
       end
 
