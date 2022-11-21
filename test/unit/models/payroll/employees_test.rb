@@ -2,7 +2,7 @@ require 'test_helper'
 
 class EmployeesTest < Test::Unit::TestCase
   include TestHelper
-  
+
   def setup
     @client = Xeroizer::PublicApplication.new(CONSUMER_KEY, CONSUMER_SECRET).payroll
     mock_api('Employees')
@@ -30,5 +30,6 @@ class EmployeesTest < Test::Unit::TestCase
     assert_not_nil employee.leave_balances.first.leave_type_id
     assert_not_nil employee.leave_balances.first.number_of_units
     assert_not_nil employee.leave_balances.first.type_of_units
+    # assert_not_nil employee.leave_balances.first.leave_category_code
   end
 end
