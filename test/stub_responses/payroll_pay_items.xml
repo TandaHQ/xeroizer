@@ -127,78 +127,111 @@
     </ReimbursementTypes>
     <LeaveTypes>
       <LeaveType>
-        <LeaveTypeID>bd2ead8d-f8f9-480a-8a71-260222ed1a34</LeaveTypeID>
+        <LeaveTypeID>e8161385-30d0-4ac2-a11a-e81e30302d41</LeaveTypeID>
         <Name>Annual Leave</Name>
         <TypeOfUnits>Hours</TypeOfUnits>
         <NormalEntitlement>152.0000</NormalEntitlement>
         <IsPaidLeave>true</IsPaidLeave>
         <ShowOnPayslip>true</ShowOnPayslip>
-        <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
+        <UpdatedDateUTC>2022-10-19T01:37:10</UpdatedDateUTC>
+        <CurrentRecord>true</CurrentRecord>
+        <LeaveCategoryCode>ANNUALLEAVE</LeaveCategoryCode>
+        <SGCExempt>false</SGCExempt>
       </LeaveType>
       <LeaveType>
-        <LeaveTypeID>cd61fd41-671b-4d1f-ad6e-fbcb1eca3fc3</LeaveTypeID>
+        <LeaveTypeID>60b2a5aa-b146-49f9-bf90-70f6ad8c333e</LeaveTypeID>
         <Name>Long Service Leave</Name>
         <TypeOfUnits>Hours</TypeOfUnits>
         <IsPaidLeave>true</IsPaidLeave>
         <ShowOnPayslip>false</ShowOnPayslip>
-        <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
+        <UpdatedDateUTC>2022-10-19T01:37:10</UpdatedDateUTC>
+        <CurrentRecord>true</CurrentRecord>
+        <LeaveCategoryCode>LONGSERVICELEAVE</LeaveCategoryCode>
+        <SGCExempt>false</SGCExempt>
       </LeaveType>
       <LeaveType>
-        <LeaveTypeID>c06359d4-ee61-4f74-9c74-f94ef6a850e3</LeaveTypeID>
+        <LeaveTypeID>c59c4d33-d22d-4f8b-b613-3b6bf6882bd7</LeaveTypeID>
         <Name>Parental Leave (unpaid)</Name>
         <TypeOfUnits>Hours</TypeOfUnits>
         <IsPaidLeave>false</IsPaidLeave>
         <ShowOnPayslip>false</ShowOnPayslip>
-        <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
+        <UpdatedDateUTC>2022-10-19T01:37:10</UpdatedDateUTC>
+        <CurrentRecord>true</CurrentRecord>
+        <SGCExempt>false</SGCExempt>
       </LeaveType>
       <LeaveType>
-        <LeaveTypeID>271814d6-1087-45f2-923a-8301113a298b</LeaveTypeID>
+        <LeaveTypeID>d2342b56-65f5-42ad-a8c6-635fbdfcac19</LeaveTypeID>
         <Name>Personal/Carer's Leave</Name>
         <TypeOfUnits>Hours</TypeOfUnits>
         <NormalEntitlement>76.0000</NormalEntitlement>
         <IsPaidLeave>true</IsPaidLeave>
         <ShowOnPayslip>false</ShowOnPayslip>
-        <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
+        <UpdatedDateUTC>2022-10-19T01:37:10</UpdatedDateUTC>
+        <CurrentRecord>true</CurrentRecord>
+        <LeaveCategoryCode>PERSONALSICKCARERSLEAVE</LeaveCategoryCode>
+        <SGCExempt>false</SGCExempt>
       </LeaveType>
       <LeaveType>
-        <LeaveTypeID>f3a5f2f8-c14e-4223-ab58-4e779e0f6f2c</LeaveTypeID>
+        <LeaveTypeID>ee486aad-310f-44c7-a734-b886cec06d20</LeaveTypeID>
         <Name>Carer's Leave (unpaid)</Name>
         <TypeOfUnits>Hours</TypeOfUnits>
         <IsPaidLeave>false</IsPaidLeave>
         <ShowOnPayslip>false</ShowOnPayslip>
-        <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
+        <UpdatedDateUTC>2022-10-19T01:37:10</UpdatedDateUTC>
+        <CurrentRecord>true</CurrentRecord>
+        <SGCExempt>false</SGCExempt>
       </LeaveType>
       <LeaveType>
-        <LeaveTypeID>30ca48d0-fe04-40c2-b590-f5191159259f</LeaveTypeID>
+        <LeaveTypeID>83f600c5-5ed9-46f4-84f1-c70769de6f93</LeaveTypeID>
         <Name>Compassionate Leave (paid)</Name>
         <TypeOfUnits>Hours</TypeOfUnits>
         <IsPaidLeave>true</IsPaidLeave>
         <ShowOnPayslip>false</ShowOnPayslip>
-        <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
+        <UpdatedDateUTC>2022-10-19T01:37:10</UpdatedDateUTC>
+        <CurrentRecord>true</CurrentRecord>
+        <LeaveCategoryCode>COMPASSIONATEANDBEREAVEMENTLEAVE</LeaveCategoryCode>
+        <SGCExempt>false</SGCExempt>
       </LeaveType>
       <LeaveType>
-        <LeaveTypeID>1e1765bc-1dbc-4ac9-b6cd-9f9f3290d8a4</LeaveTypeID>
+        <LeaveTypeID>3ed0e06d-eb74-45a3-83d4-492d1a8608bb</LeaveTypeID>
         <Name>Compassionate Leave (unpaid)</Name>
         <TypeOfUnits>Hours</TypeOfUnits>
         <IsPaidLeave>false</IsPaidLeave>
         <ShowOnPayslip>false</ShowOnPayslip>
-        <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
+        <UpdatedDateUTC>2022-10-19T01:37:10</UpdatedDateUTC>
+        <CurrentRecord>true</CurrentRecord>
+        <SGCExempt>false</SGCExempt>
       </LeaveType>
       <LeaveType>
-        <LeaveTypeID>42d46756-9f2b-4456-ad44-8c889ff4a5bd</LeaveTypeID>
+        <LeaveTypeID>a0697213-4e83-47a0-b180-f9718c09d2be</LeaveTypeID>
         <Name>Community Service Leave</Name>
         <TypeOfUnits>Hours</TypeOfUnits>
         <IsPaidLeave>false</IsPaidLeave>
         <ShowOnPayslip>false</ShowOnPayslip>
-        <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
+        <UpdatedDateUTC>2022-10-19T01:37:10</UpdatedDateUTC>
+        <CurrentRecord>true</CurrentRecord>
+        <SGCExempt>false</SGCExempt>
       </LeaveType>
       <LeaveType>
-        <LeaveTypeID>7ea96a9f-d7c2-4de1-a3ac-bf89980f1890</LeaveTypeID>
+        <LeaveTypeID>8af9bd03-a957-4c5f-8e8e-038a5c4263ea</LeaveTypeID>
         <Name>Other Unpaid Leave</Name>
         <TypeOfUnits>Hours</TypeOfUnits>
         <IsPaidLeave>false</IsPaidLeave>
         <ShowOnPayslip>false</ShowOnPayslip>
-        <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
+        <UpdatedDateUTC>2022-10-19T01:37:10</UpdatedDateUTC>
+        <CurrentRecord>true</CurrentRecord>
+        <SGCExempt>false</SGCExempt>
+      </LeaveType>
+      <LeaveType>
+        <LeaveTypeID>624fc546-d4f5-4a5a-abb0-347ac94f2e89</LeaveTypeID>
+        <Name>TOIL</Name>
+        <TypeOfUnits>Hours</TypeOfUnits>
+        <IsPaidLeave>true</IsPaidLeave>
+        <ShowOnPayslip>true</ShowOnPayslip>
+        <UpdatedDateUTC>2022-11-21T23:59:39</UpdatedDateUTC>
+        <CurrentRecord>true</CurrentRecord>
+        <LeaveCategoryCode>TIMEOFFINLIEU</LeaveCategoryCode>
+        <SGCExempt>false</SGCExempt>
       </LeaveType>
     </LeaveTypes>
   </PayItems>
