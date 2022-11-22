@@ -21,7 +21,7 @@ module Xeroizer
 
         datetime_utc  :updated_date_utc, :api_name => 'UpdatedDateUTC'
 
-        validates_presence_of :name, :type_of_units, :is_paid_leave, :show_on_payslip, :leave_category_code, :SGC_exempt
+        validates_presence_of :name, :type_of_units, :is_paid_leave, :show_on_payslip, :SGC_exempt
 
       end
 
