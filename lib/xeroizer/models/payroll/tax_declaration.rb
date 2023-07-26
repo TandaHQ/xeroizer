@@ -24,7 +24,6 @@ module Xeroizer
         string       :senior_marital_status, api_name: 'SeniorMaritalStatus'
         string       :tax_scale_type, api_name: 'TaxScaleType'
         string       :work_condition, api_name: 'WorkCondition'
-        string       :home_country, api_name: 'CountryOfResidence'
 
       end
 
