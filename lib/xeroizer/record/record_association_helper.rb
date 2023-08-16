@@ -168,7 +168,7 @@ module Xeroizer
               when NilClass
                 self.attributes[field_name] = []
 
-              when Float, Fixnum
+              when Float, Integer
                 if record_class.fields.count == 1 && record_class.fields.keys.first == :value
                   self.attributes[field_name] = self.class.value_if_nil(association_type, value)
                 else
