@@ -47,7 +47,7 @@ module Xeroizer
         string        :income_type, api_name: 'IncomeType'
         string        :employment_type, api_name: 'EmploymentType'
         string        :is_stp2_qualified, api_name: 'IsSTP2Qualified'
-        string        :home_country, api_name: 'CountryOfResidence'
+        string        :country_of_residence, api_name: 'CountryOfResidence'
 
         belongs_to    :address, :internal_name_singular => "address", :model_name => "Address", api_name: 'address'
         belongs_to    :home_address, :internal_name_singular => "home_address", :model_name => "HomeAddress"
