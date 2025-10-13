@@ -1,8 +1,8 @@
 module Xeroizer
   class Scopes
     def self.all_payroll
-      (['Employees', 'PayRuns', 'Payslip', 'Settings', 'Timesheets'].map {|s| "payroll.#{s.downcase}"} +
-       ['Settings', 'Contacts'].map {|s| "accounting.#{s.downcase}"} +
+      (['Employees', 'PayRuns', 'Settings', 'Timesheets'].map {|s| "payroll.#{s.downcase}"} +
+       ['Settings', 'Contacts', 'Transactions'].map {|s| "accounting.#{s.downcase}"} +
        ['offline_access']
       ).join(' ') 
     end
