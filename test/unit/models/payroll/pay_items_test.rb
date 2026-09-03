@@ -26,8 +26,8 @@ class PayItemsTest < Test::Unit::TestCase
     pay_items = @client.PayItem.first
     ordinary = pay_items.earnings_rates.find { |er| er.name == "Ordinary Hours" }
     overtime = pay_items.earnings_rates.find { |er| er.name == "Overtime Hours (exempt from super)" }
-    assert_equal true, ordinary.is_qualifying_earnings
-    assert_equal false, overtime.is_qualifying_earnings
+    assert_equal true, ordinary.attributes[:is_qualifying_earnings]
+    assert_equal false, overtime.attributes[:is_qualifying_earnings]
 
     doc = Nokogiri::XML pay_items.to_xml
     flags = doc.xpath("/PayItems/EarningsRates/EarningsRate/IsQualifyingEarnings").map(&:text)
@@ -37,7 +37,7 @@ class PayItemsTest < Test::Unit::TestCase
 
   test "leave types round-trip IsQualifyingEarnings" do
     pay_items = @client.PayItem.first
-    assert pay_items.leave_types.all? { |lt| [true, false].include?(lt.is_qualifying_earnings) }
+    assert pay_items.leave_types.all? { |lt| [true, false].include?(lt.attributes[:is_qualifying_earnings]) }
 
     doc = Nokogiri::XML pay_items.to_xml
     assert_equal pay_items.leave_types.size, doc.xpath("/PayItems/LeaveTypes/LeaveType/IsQualifyingEarnings").size
