@@ -14,6 +14,7 @@
         <TypeOfUnits>Hours</TypeOfUnits>
         <IsExemptFromTax>false</IsExemptFromTax>
         <IsExemptFromSuper>false</IsExemptFromSuper>
+        <IsQualifyingEarnings>true</IsQualifyingEarnings>
         <IsReportableAsW1>true</IsReportableAsW1>
         <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
       </EarningsRate>
@@ -26,6 +27,7 @@
         <Multiplier>1.5000</Multiplier>
         <IsExemptFromTax>false</IsExemptFromTax>
         <IsExemptFromSuper>true</IsExemptFromSuper>
+        <IsQualifyingEarnings>false</IsQualifyingEarnings>
         <IsReportableAsW1>true</IsReportableAsW1>
         <AccrueLeave>false</AccrueLeave>
         <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
@@ -39,6 +41,7 @@
         <TypeOfUnits>Fixed Amount</TypeOfUnits>
         <IsExemptFromTax>false</IsExemptFromTax>
         <IsExemptFromSuper>false</IsExemptFromSuper>
+        <IsQualifyingEarnings>true</IsQualifyingEarnings>
         <IsReportableAsW1>true</IsReportableAsW1>
         <AllowanceType>Other</AllowanceType>
         <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
@@ -52,6 +55,7 @@
         <TypeOfUnits>Fixed Amount</TypeOfUnits>
         <IsExemptFromTax>true</IsExemptFromTax>
         <IsExemptFromSuper>true</IsExemptFromSuper>
+        <IsQualifyingEarnings>false</IsQualifyingEarnings>
         <IsReportableAsW1>true</IsReportableAsW1>
         <AllowanceType>Other</AllowanceType>
         <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
@@ -64,6 +68,7 @@
         <AccountCode>477</AccountCode>
         <IsExemptFromTax>false</IsExemptFromTax>
         <IsExemptFromSuper>true</IsExemptFromSuper>
+        <IsQualifyingEarnings>false</IsQualifyingEarnings>
         <IsReportableAsW1>false</IsReportableAsW1>
         <UpdatedDateUTC>2018-02-07T01:01:25</UpdatedDateUTC>
         <EmploymentTerminationPaymentType>O</EmploymentTerminationPaymentType>
@@ -137,6 +142,7 @@
         <CurrentRecord>true</CurrentRecord>
         <LeaveCategoryCode>ANNUALLEAVE</LeaveCategoryCode>
         <SGCExempt>false</SGCExempt>
+        <IsQualifyingEarnings>true</IsQualifyingEarnings>
       </LeaveType>
       <LeaveType>
         <LeaveTypeID>cd61fd41-671b-4d1f-ad6e-fbcb1eca3fc3</LeaveTypeID>
@@ -148,6 +154,7 @@
         <CurrentRecord>true</CurrentRecord>
         <LeaveCategoryCode>LONGSERVICELEAVE</LeaveCategoryCode>
         <SGCExempt>false</SGCExempt>
+        <IsQualifyingEarnings>true</IsQualifyingEarnings>
       </LeaveType>
       <LeaveType>
         <LeaveTypeID>c06359d4-ee61-4f74-9c74-f94ef6a850e3</LeaveTypeID>
@@ -158,6 +165,7 @@
         <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
         <CurrentRecord>true</CurrentRecord>
         <SGCExempt>false</SGCExempt>
+        <IsQualifyingEarnings>false</IsQualifyingEarnings>
       </LeaveType>
       <LeaveType>
         <LeaveTypeID>271814d6-1087-45f2-923a-8301113a298b</LeaveTypeID>
@@ -170,6 +178,7 @@
         <CurrentRecord>true</CurrentRecord>
         <LeaveCategoryCode>PERSONALSICKCARERSLEAVE</LeaveCategoryCode>
         <SGCExempt>false</SGCExempt>
+        <IsQualifyingEarnings>true</IsQualifyingEarnings>
       </LeaveType>
       <LeaveType>
         <LeaveTypeID>f3a5f2f8-c14e-4223-ab58-4e779e0f6f2c</LeaveTypeID>
@@ -180,6 +189,7 @@
         <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
         <CurrentRecord>true</CurrentRecord>
         <SGCExempt>false</SGCExempt>
+        <IsQualifyingEarnings>false</IsQualifyingEarnings>
       </LeaveType>
       <LeaveType>
         <LeaveTypeID>30ca48d0-fe04-40c2-b590-f5191159259f</LeaveTypeID>
@@ -191,6 +201,7 @@
         <CurrentRecord>true</CurrentRecord>
         <LeaveCategoryCode>COMPASSIONATEANDBEREAVEMENTLEAVE</LeaveCategoryCode>
         <SGCExempt>false</SGCExempt>
+        <IsQualifyingEarnings>true</IsQualifyingEarnings>
       </LeaveType>
       <LeaveType>
         <LeaveTypeID>1e1765bc-1dbc-4ac9-b6cd-9f9f3290d8a4</LeaveTypeID>
@@ -201,6 +212,7 @@
         <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
         <CurrentRecord>true</CurrentRecord>
         <SGCExempt>false</SGCExempt>
+        <IsQualifyingEarnings>false</IsQualifyingEarnings>
       </LeaveType>
       <LeaveType>
         <LeaveTypeID>42d46756-9f2b-4456-ad44-8c889ff4a5bd</LeaveTypeID>
@@ -211,6 +223,7 @@
         <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
         <CurrentRecord>true</CurrentRecord>
         <SGCExempt>false</SGCExempt>
+        <IsQualifyingEarnings>false</IsQualifyingEarnings>
       </LeaveType>
       <LeaveType>
         <LeaveTypeID>7ea96a9f-d7c2-4de1-a3ac-bf89980f1890</LeaveTypeID>
@@ -221,6 +234,7 @@
         <UpdatedDateUTC>2013-04-09T23:45:25</UpdatedDateUTC>
         <CurrentRecord>true</CurrentRecord>
         <SGCExempt>false</SGCExempt>
+        <IsQualifyingEarnings>false</IsQualifyingEarnings>
       </LeaveType>
       <LeaveType>
         <LeaveTypeID>624fc546-d4f5-4a5a-abb0-347ac94f2e89</LeaveTypeID>
@@ -232,6 +246,7 @@
         <CurrentRecord>true</CurrentRecord>
         <LeaveCategoryCode>TIMEOFFINLIEU</LeaveCategoryCode>
         <SGCExempt>false</SGCExempt>
+        <IsQualifyingEarnings>true</IsQualifyingEarnings>
       </LeaveType>
     </LeaveTypes>
   </PayItems>

@@ -18,6 +18,7 @@ module Xeroizer
         decimal       :leave_loading_rate
         string        :leave_category_code, api_name: 'LeaveCategoryCode' # https://developer.xero.com/documentation/api/payrollau/payitems#elements-for-leavetypes
         boolean       :SGC_exempt, api_name: 'SGCExempt' # list of what is exempt here: https://developer.xero.com/documentation/api/payrollau/types-and-codes#leavecategory
+        boolean       :is_qualifying_earnings
 
         datetime_utc  :updated_date_utc, :api_name => 'UpdatedDateUTC'
 
