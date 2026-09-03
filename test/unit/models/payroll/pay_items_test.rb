@@ -22,7 +22,7 @@ class PayItemsTest < Test::Unit::TestCase
     assert_equal 10, doc.xpath("/PayItems/LeaveTypes/LeaveType").size
   end
 
-  test "earnings rates round-trip IsQualifyingEarnings" do
+  test "reads IsQualifyingEarnings from Xero earnings rates and sends it back" do
     pay_items = @client.PayItem.first
     ordinary = pay_items.earnings_rates.find { |er| er.name == "Ordinary Hours" }
     overtime = pay_items.earnings_rates.find { |er| er.name == "Overtime Hours (exempt from super)" }
@@ -35,7 +35,7 @@ class PayItemsTest < Test::Unit::TestCase
     assert_includes flags, "false"
   end
 
-  test "leave types round-trip IsQualifyingEarnings" do
+  test "reads IsQualifyingEarnings from Xero leave types and sends it back" do
     pay_items = @client.PayItem.first
     assert pay_items.leave_types.all? { |lt| [true, false].include?(lt.attributes[:is_qualifying_earnings]) }
 
