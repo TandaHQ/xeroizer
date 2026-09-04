@@ -15,6 +15,7 @@ module Xeroizer
         string        :type_of_units
         boolean       :is_exempt_from_tax
         boolean       :is_exempt_from_super
+        boolean       :is_qualifying_earnings
         string        :earnings_type # http://developer.xero.com/payroll-api/types-and-codes/#EarningsTypes
 
         guid          :earnings_rate_id
